@@ -1,5 +1,6 @@
 class Server
   include Mongoid::Document
+  include Mongoid::Timestamps
 
   field :discord_id
   field :name

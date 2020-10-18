@@ -2,7 +2,8 @@ require 'gsp/config/mongoid'
 require 'gsp/setup'
 require 'gsp/raids'
 
-require 'gsp/models/server'
+require 'gsp/models/discord/server'
+require 'gsp/models/wow/raid'
 
 module GSP
   def self.logger
